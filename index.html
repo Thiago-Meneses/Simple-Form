@@ -3,98 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Testando</title>
 </head>
 <body>
-    <form action="results.html" method="GET" enctype="multipart/form-data">
-        <label for='name'>Name</label>
-        <input type="text" name='name' id='name' required>
-        <br>
-        <br>
-
-        <label for="email">Email</label>
-        <input type="email" name='email' id='email' required>
-        <br>
-        <br>
-
-        <label for="age">Age</label>
-        <input type="number" name="number" id="number" min="1" max="200" step='1' required>
-        <br>
-        <br>
-
-        <label for="birth">Birthdate</label>
-        <input type="date" name='date' id="date">
-        <br>
-        <br>
-
-        <div>
-            Favorite Food
-            <div>
-                <label for="banana">Banana</label>
-                <input type="checkbox" name='banana' id='banana'>
-            </div>
-            <div>
-                <label for="apple">Apple</label>
-                <input type="checkbox" name='apple' id='apple'>
-            </div>
-        </div>
-        <br>
-
-        <div>
-            Gender
-            <div>
-                <label for="male">Male</label>
-                <input type="radio" id='male' name='gender'>
+    <section id='container'>
+        <form action="results.html" method="GET" enctype="multipart/form-data">
+            <div id='div-name'>
+            <label for='name'>Name</label>
+            <input type="text" name='name' id='name' required>
             </div>
 
+            <hr>
+
             <div>
-                <label for="female">Female</label>
-                <input type="radio" id='female' name='gender'>
+            <label for="email">Email</label>
+            <input type="email" name='email' id='email' required>
             </div>
-        </div>
-        <br>
 
-        <div>
-            <label for="eyeColor">Eye Color</label>
-            <select name="eyeColor" id="eyeColor" multiple>
-                <option value="Green">Green</option>
-                <option value="Blue">Blue</option>
-            </select>
-        </div>
+            <hr>
 
-        <div>
-            <label for="bio">Bio</label>
-            <textarea name="bio" id="bio"></textarea>
-        </div>
+            <div>
+            <label for="age">Age</label>
+            <input type="number" name="number" id="number" min="1" max="200" step='1' required>
+            </div>
 
-        <label for="password">Password</label>
-        <input type="password" name='password' id='password' required>
-        <br>
-        <br>
+            <hr>
 
-        <div>
-            <label for="file">File</label>
-            <input type="file" name="file" id="file">
-        </div>
+            <div id='div-birth'>
+            <label for="birth">Birthdate</label>
+            <input type="date" name='date' id="date">
+            </div>
 
-        <div>
-            <label for="phone">Phone</label>
-            <input type="tel" name='phone' id='phone'>
-        </div>
-        
-        <div>
-            <label for="color">Color</label>
-            <input type='color' name='color' id='color'>
-        </div>
+            <hr>
 
-        <div>
-            <label for="url">URL</label>
-            <input type="url" name='url' id='url'>
-        </div>
+            <div>
+                Favorite Food
+                <div>
+                    <label for="banana">Banana</label>
+                    <input type="checkbox" name='banana' id='banana'>
+                </div>
+                <div>
+                    <label for="apple">Apple</label>
+                    <input type="checkbox" name='apple' id='apple'>
+                </div>
+            </div>
 
-        <button type="reset">Reset</button>
-        <button type="submit">Done</button>
-    </form>
+            <hr>
+
+            <div>
+                Gender
+                <div>
+                    <label for="male">Male</label>
+                    <input type="radio" id='male' name='gender'>
+                </div>
+
+                <div>
+                    <label for="female">Female</label>
+                    <input type="radio" id='female' name='gender'>
+                </div>
+            </div>
+
+            <hr>
+            
+            <div>
+                <label for="eyeColor">Eye Color</label>
+                <select name="eyeColor" id="eyeColor" multiple>
+                    <option value="Green">Green</option>
+                    <option value="Blue">Blue</option>
+                </select>
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="bio">Bio</label>
+                <textarea name="bio" id="bio"></textarea>
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name='password' id='password' required>
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="file">File</label>
+                <input type="file" name="file" id="file">
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="phone">Phone</label>
+                <input type="tel" name='phone' id='phone'>
+            </div>
+            
+            <hr>
+
+            <div>
+                <label for="color">Color</label>
+                <input type='color' name='color' id='color'>
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="url">URL</label>
+                <input type="url" name='url' id='url'>
+            </div>
+
+            <button type="reset">Reset</button>
+            <button type="submit">Done</button>
+        </form>
+    </section>
 
     <script>
         function ipt1(){
