@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando</title>
+</head>
+<body>
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+        <label for='name'>Name</label>
+        <input type="text" name='name' id='name' required>
+        <br>
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" name='email' id='email' required>
+        <br>
+        <br>
+
+        <label for="age">Age</label>
+        <input type="number" name="number" id="number" min="1" max="200" step='1' required>
+        <br>
+        <br>
+
+        <label for="birth">Birthdate</label>
+        <input type="date" name='date' id="date">
+        <br>
+        <br>
+
+        <div>
+            Favorite Food
+            <div>
+                <label for="banana">Banana</label>
+                <input type="checkbox" name='banana' id='banana'>
+            </div>
+            <div>
+                <label for="apple">Apple</label>
+                <input type="checkbox" name='apple' id='apple'>
+            </div>
+        </div>
+        <br>
+
+        <div>
+            Gender
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" id='male' name='gender'>
+            </div>
+
+            <div>
+                <label for="female">Female</label>
+                <input type="radio" id='female' name='gender'>
+            </div>
+        </div>
+        <br>
+
+        <div>
+            <label for="eyeColor">Eye Color</label>
+            <select name="eyeColor" id="eyeColor" multiple>
+                <option value="Green">Green</option>
+                <option value="Blue">Blue</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="bio">Bio</label>
+            <textarea name="bio" id="bio"></textarea>
+        </div>
+
+        <label for="password">Password</label>
+        <input type="password" name='password' id='password' required>
+        <br>
+        <br>
+
+        <div>
+            <label for="file">File</label>
+            <input type="file" name="file" id="file">
+        </div>
+
+        <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name='phone' id='phone'>
+        </div>
+        
+        <div>
+            <label for="color">Color</label>
+            <input type='color' name='color' id='color'>
+        </div>
+
+        <div>
+            <label for="url">URL</label>
+            <input type="url" name='url' id='url'>
+        </div>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Done</button>
+    </form>
+
+    <script>
+        function ipt1(){
+            alert('You clicked the first button!')
+        }
+    </script>
+</body>
+</html>
