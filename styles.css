@@ -37,7 +37,7 @@ hr{
 }
 
 form div{
-    padding: 100px 0 100px 50px;
+    padding: 100px 50px 100px 50px;
     margin: 30px;
 
     background-color:rgb(148, 190, 204);
@@ -56,4 +56,138 @@ input{
 
 #div-birth input{
     width: 370px;
+}
+
+#food-hr{
+    margin: 10px 0;
+    padding: 0;
+}
+
+.foods{
+    background-color: rgb(112, 148, 160);
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 10px 25px 0px 25px;
+    margin: 20px 0;
+    width: 350px;
+    text-align: left;
+}
+
+.foods input{
+    position: relative;    
+    transform: translateX(-60px);
+}
+
+.foods label{
+    position: absolute;    
+    transform: translateY(50%);
+}
+
+
+#gender-hr{
+    margin: 10px 0;
+    padding: 0;
+}
+
+.genders{
+    background-color: rgba(112, 148, 160, 0.609);
+    border: 1px solid black;
+    padding: 20px 25px 10px 25px;
+    margin: 20px 0;
+    width: 350px;
+    text-align: left;
+}
+
+.genders input{
+    position: relative;    
+    transform: translateX(-60px);
+}
+
+.genders label{
+    position: absolute;    
+    transform: translateY(50%);
+}
+
+
+#div-bio{
+    overflow: hidden;
+}
+
+
+#eyeColor{
+    background-color: rgb(112, 148, 160);
+    color: white;
+}
+
+
+#label-bio{
+    position: relative;
+    top: -50%;
+}
+
+#bio{
+    margin-left: 20px;
+    padding: 10px;
+    width: 1000px;
+    background-color: rgb(112, 148, 160);
+    color: white;
+    resize: vertical;
+    max-height: 1000px;
+}
+
+
+#file{
+    background-color:  rgba(112, 148, 160, 0.609);
+    padding: 0px;
+    margin: 0;
+    border: 0;
+    width: 1000px;
+    height: 60px;
+    transition: 0.2s;
+}
+
+
+#color{
+    border-radius: 15px;
+    padding: 15px;
+    margin: 0;
+    border: 0;
+}
+
+#color:hover{
+    background-color:rgba(73, 95, 102, 0.774);
+    outline: none;
+}
+
+
+#container-btn{
+    background: none;
+    margin: auto;
+    position: absolute;
+    width: 1400px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+button{
+    background-color:  rgba(112, 148, 160, 0.609);
+    padding: 10px;
+    width: 500px;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-100%);
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color:rgb(112, 148, 160);
+}
+
+button:focus{
+    outline: none;
+}
+
+button:active{
+    background-color: rgb(84, 116, 128);
 }
