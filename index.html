@@ -40,26 +40,35 @@
 
             <div>
                 Favorite Food
-                <div>
+                <hr id='food-hr'>
+                <div class='foods'>
                     <label for="banana">Banana</label>
                     <input type="checkbox" name='banana' id='banana'>
                 </div>
-                <div>
+                <div class='foods'>
                     <label for="apple">Apple</label>
                     <input type="checkbox" name='apple' id='apple'>
                 </div>
+                <div class='foods'>
+                    <label for="orange">Orange</label>
+                    <input type="checkbox" name='orange' id='orange'>
+                </div>
+                <div class='foods'>
+                    <label for="tomato">Tomato</label>
+                    <input type="checkbox" name='tomato' id='tomato'>
+                </div>
             </div>
-
             <hr>
 
             <div>
                 Gender
-                <div>
+                <hr id='gender-hr'>
+                <div class='genders'>
                     <label for="male">Male</label>
                     <input type="radio" id='male' name='gender'>
                 </div>
 
-                <div>
+                <div class='genders'>
                     <label for="female">Female</label>
                     <input type="radio" id='female' name='gender'>
                 </div>
@@ -69,7 +78,7 @@
             
             <div>
                 <label for="eyeColor">Eye Color</label>
-                <select name="eyeColor" id="eyeColor" multiple>
+                <select name="eyeColor" id="eyeColor">
                     <option value="Green">Green</option>
                     <option value="Blue">Blue</option>
                 </select>
@@ -77,8 +86,8 @@
 
             <hr>
 
-            <div>
-                <label for="bio">Bio</label>
+            <div id='div-bio'>
+                <label for="bio" id='label-bio'>Bio</label>
                 <textarea name="bio" id="bio"></textarea>
             </div>
 
@@ -117,8 +126,10 @@
                 <input type="url" name='url' id='url'>
             </div>
 
-            <button type="reset">Reset</button>
-            <button type="submit">Done</button>
+            <div id='container-btn'>
+                <button type="submit">Done</button>
+                <button type="reset">Reset</button>
+            </div>
         </form>
     </section>
 
